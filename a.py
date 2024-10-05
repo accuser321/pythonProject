@@ -13,6 +13,7 @@ test_graph.create(node_1)
 test_graph.create(node_2)
 test_graph.create(node_3)
 print(node_1)
+print(node_1)
 
 node_1_to_node_2 = Relationship(node_1,'教主',node_2)
 node_3_to_node_1 = Relationship(node_1,'统领',node_3)
